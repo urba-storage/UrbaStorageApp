@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD92F91D291F730900FDD1B9 /* UrbaStorageAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F91C291F730900FDD1B9 /* UrbaStorageAppApp.swift */; };
+		BD92F921291F730A00FDD1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD92F920291F730A00FDD1B9 /* Assets.xcassets */; };
+		BD92F924291F730A00FDD1B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD92F923291F730A00FDD1B9 /* Preview Assets.xcassets */; };
+		BD92F92F291F748D00FDD1B9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BD92F92E291F748D00FDD1B9 /* Realm */; };
+		BD92F931291F748D00FDD1B9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BD92F930291F748D00FDD1B9 /* RealmSwift */; };
+		BD92F93A291F76DB00FDD1B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F939291F76DB00FDD1B9 /* ContentView.swift */; };
+		BD92F93C291F771900FDD1B9 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F93B291F771900FDD1B9 /* ChatMessage.swift */; };
+		BD92F93E291F7A5A00FDD1B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F93D291F7A5A00FDD1B9 /* LoginView.swift */; };
+		BD92F940291F7F1200FDD1B9 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F93F291F7F1200FDD1B9 /* ChatRoomView.swift */; };
+		BD92F942291F7FBD00FDD1B9 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F941291F7FBD00FDD1B9 /* ChatsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD92F919291F730900FDD1B9 /* UrbaStorageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbaStorageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD92F91C291F730900FDD1B9 /* UrbaStorageAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbaStorageAppApp.swift; sourceTree = "<group>"; };
+		BD92F920291F730A00FDD1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD92F923291F730A00FDD1B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD92F939291F76DB00FDD1B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD92F93B291F771900FDD1B9 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		BD92F93D291F7A5A00FDD1B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BD92F93F291F7F1200FDD1B9 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
+		BD92F941291F7FBD00FDD1B9 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD92F916291F730900FDD1B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD92F931291F748D00FDD1B9 /* RealmSwift in Frameworks */,
+				BD92F92F291F748D00FDD1B9 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD92F910291F730900FDD1B9 = {
+			isa = PBXGroup;
+			children = (
+				BD92F91B291F730900FDD1B9 /* UrbaStorageApp */,
+				BD92F91A291F730900FDD1B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD92F91A291F730900FDD1B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD92F919291F730900FDD1B9 /* UrbaStorageApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD92F91B291F730900FDD1B9 /* UrbaStorageApp */ = {
+			isa = PBXGroup;
+			children = (
+				BD92F92C291F73C400FDD1B9 /* Model */,
+				BD92F932291F74EE00FDD1B9 /* Views */,
+				BD92F91C291F730900FDD1B9 /* UrbaStorageAppApp.swift */,
+				BD92F920291F730A00FDD1B9 /* Assets.xcassets */,
+				BD92F922291F730A00FDD1B9 /* Preview Content */,
+			);
+			path = UrbaStorageApp;
+			sourceTree = "<group>";
+		};
+		BD92F922291F730A00FDD1B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD92F923291F730A00FDD1B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD92F92C291F73C400FDD1B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD92F93B291F771900FDD1B9 /* ChatMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD92F932291F74EE00FDD1B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD92F939291F76DB00FDD1B9 /* ContentView.swift */,
+				BD92F93D291F7A5A00FDD1B9 /* LoginView.swift */,
+				BD92F93F291F7F1200FDD1B9 /* ChatRoomView.swift */,
+				BD92F941291F7FBD00FDD1B9 /* ChatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD92F918291F730900FDD1B9 /* UrbaStorageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD92F927291F730A00FDD1B9 /* Build configuration list for PBXNativeTarget "UrbaStorageApp" */;
+			buildPhases = (
+				BD92F915291F730900FDD1B9 /* Sources */,
+				BD92F916291F730900FDD1B9 /* Frameworks */,
+				BD92F917291F730900FDD1B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UrbaStorageApp;
+			packageProductDependencies = (
+				BD92F92E291F748D00FDD1B9 /* Realm */,
+				BD92F930291F748D00FDD1B9 /* RealmSwift */,
+			);
+			productName = UrbaStorageApp;
+			productReference = BD92F919291F730900FDD1B9 /* UrbaStorageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD92F911291F730900FDD1B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BD92F918291F730900FDD1B9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = BD92F914291F730900FDD1B9 /* Build configuration list for PBXProject "UrbaStorageApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD92F910291F730900FDD1B9;
+			packageReferences = (
+				BD92F92D291F748D00FDD1B9 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = BD92F91A291F730900FDD1B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD92F918291F730900FDD1B9 /* UrbaStorageApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD92F917291F730900FDD1B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD92F924291F730A00FDD1B9 /* Preview Assets.xcassets in Resources */,
+				BD92F921291F730A00FDD1B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD92F915291F730900FDD1B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD92F942291F7FBD00FDD1B9 /* ChatsView.swift in Sources */,
+				BD92F93C291F771900FDD1B9 /* ChatMessage.swift in Sources */,
+				BD92F93A291F76DB00FDD1B9 /* ContentView.swift in Sources */,
+				BD92F940291F7F1200FDD1B9 /* ChatRoomView.swift in Sources */,
+				BD92F93E291F7A5A00FDD1B9 /* LoginView.swift in Sources */,
+				BD92F91D291F730900FDD1B9 /* UrbaStorageAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD92F925291F730A00FDD1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD92F926291F730A00FDD1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD92F928291F730A00FDD1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UrbaStorageApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhaynaik.UrbaStorageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD92F929291F730A00FDD1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UrbaStorageApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhaynaik.UrbaStorageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD92F914291F730900FDD1B9 /* Build configuration list for PBXProject "UrbaStorageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD92F925291F730A00FDD1B9 /* Debug */,
+				BD92F926291F730A00FDD1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD92F927291F730A00FDD1B9 /* Build configuration list for PBXNativeTarget "UrbaStorageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD92F928291F730A00FDD1B9 /* Debug */,
+				BD92F929291F730A00FDD1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD92F92D291F748D00FDD1B9 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD92F92E291F748D00FDD1B9 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD92F92D291F748D00FDD1B9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		BD92F930291F748D00FDD1B9 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD92F92D291F748D00FDD1B9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BD92F911291F730900FDD1B9 /* Project object */;
+}
