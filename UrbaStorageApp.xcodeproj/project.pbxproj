@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD64F5CC2975BCF8007146B5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64F5CB2975BCF8007146B5 /* SplashScreenView.swift */; };
+		BD64F5D22975E1D4007146B5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64F5D12975E1D4007146B5 /* LoginView.swift */; };
+		BD64F5D62975EDA4007146B5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64F5D52975EDA4007146B5 /* SignUpView.swift */; };
 		BD92F91D291F730900FDD1B9 /* UrbaStorageAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F91C291F730900FDD1B9 /* UrbaStorageAppApp.swift */; };
 		BD92F921291F730A00FDD1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD92F920291F730A00FDD1B9 /* Assets.xcassets */; };
 		BD92F924291F730A00FDD1B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD92F923291F730A00FDD1B9 /* Preview Assets.xcassets */; };
 		BD92F92F291F748D00FDD1B9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BD92F92E291F748D00FDD1B9 /* Realm */; };
 		BD92F931291F748D00FDD1B9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BD92F930291F748D00FDD1B9 /* RealmSwift */; };
-		BD92F93A291F76DB00FDD1B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F939291F76DB00FDD1B9 /* ContentView.swift */; };
 		BD92F93C291F771900FDD1B9 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F93B291F771900FDD1B9 /* ChatMessage.swift */; };
-		BD92F93E291F7A5A00FDD1B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F93D291F7A5A00FDD1B9 /* LoginView.swift */; };
-		BD92F940291F7F1200FDD1B9 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F93F291F7F1200FDD1B9 /* ChatRoomView.swift */; };
-		BD92F942291F7FBD00FDD1B9 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92F941291F7FBD00FDD1B9 /* ChatsView.swift */; };
+		BDC625A6297B7545000C2F40 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC625A5297B7545000C2F40 /* HomeScreenView.swift */; };
+		BDDAF93B297F288F004E0C67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDAF93A297F288F004E0C67 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD64F5CB2975BCF8007146B5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		BD64F5D12975E1D4007146B5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BD64F5D52975EDA4007146B5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		BD92F919291F730900FDD1B9 /* UrbaStorageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbaStorageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD92F91C291F730900FDD1B9 /* UrbaStorageAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbaStorageAppApp.swift; sourceTree = "<group>"; };
 		BD92F920291F730A00FDD1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD92F923291F730A00FDD1B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BD92F939291F76DB00FDD1B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD92F93B291F771900FDD1B9 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
-		BD92F93D291F7A5A00FDD1B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		BD92F93F291F7F1200FDD1B9 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
-		BD92F941291F7FBD00FDD1B9 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		BDC625A5297B7545000C2F40 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		BDDAF93A297F288F004E0C67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +93,11 @@
 		BD92F932291F74EE00FDD1B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BD92F939291F76DB00FDD1B9 /* ContentView.swift */,
-				BD92F93D291F7A5A00FDD1B9 /* LoginView.swift */,
-				BD92F93F291F7F1200FDD1B9 /* ChatRoomView.swift */,
-				BD92F941291F7FBD00FDD1B9 /* ChatsView.swift */,
+				BD64F5CB2975BCF8007146B5 /* SplashScreenView.swift */,
+				BD64F5D12975E1D4007146B5 /* LoginView.swift */,
+				BD64F5D52975EDA4007146B5 /* SignUpView.swift */,
+				BDC625A5297B7545000C2F40 /* HomeScreenView.swift */,
+				BDDAF93A297F288F004E0C67 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,11 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD92F942291F7FBD00FDD1B9 /* ChatsView.swift in Sources */,
+				BD64F5CC2975BCF8007146B5 /* SplashScreenView.swift in Sources */,
+				BD64F5D22975E1D4007146B5 /* LoginView.swift in Sources */,
+				BDDAF93B297F288F004E0C67 /* ContentView.swift in Sources */,
 				BD92F93C291F771900FDD1B9 /* ChatMessage.swift in Sources */,
-				BD92F93A291F76DB00FDD1B9 /* ContentView.swift in Sources */,
-				BD92F940291F7F1200FDD1B9 /* ChatRoomView.swift in Sources */,
-				BD92F93E291F7A5A00FDD1B9 /* LoginView.swift in Sources */,
+				BDC625A6297B7545000C2F40 /* HomeScreenView.swift in Sources */,
+				BD64F5D62975EDA4007146B5 /* SignUpView.swift in Sources */,
 				BD92F91D291F730900FDD1B9 /* UrbaStorageAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

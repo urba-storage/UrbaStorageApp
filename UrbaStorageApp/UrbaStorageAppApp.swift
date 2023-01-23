@@ -13,7 +13,7 @@ let app = RealmSwift.App(id: "urbastorageapp-nkqky")
 struct UrbaStorageAppApp: SwiftUI.App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
